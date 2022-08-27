@@ -1,0 +1,138 @@
+.app__login-container {
+    height: 87vh;
+    position: relative;
+}
+
+.app__login-img img {
+    height: 70vh;
+    position: absolute;
+}
+
+.app__login-form_body {
+    position: absolute;
+    margin: 2% 2% 0 75%; 
+}
+
+.app__login-title {
+    background: white;
+    width: 337px;
+    height: 278px;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.app__login-title p {
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+.app__login-title input {
+    margin: 10px 0 10px 20px;
+    border-radius: 5px;
+    border: 0.1px solid #7B7070;
+    outline: none;
+    padding: 5px 5px 5px 10px;
+    width: 292px;
+    height: 26px;   
+}
+
+.app__login-btns {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.app__login-btns .link {
+    margin-left: 30px;
+    color: black;
+    text-decoration: underline;
+}
+
+.app__login-btns .link:hover {
+    color: blue;
+}
+
+.app__login-btns .btn-login {
+    font-size: 12px;
+    background: #B46100;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    width: 50px;
+    height: 30px;
+    cursor: pointer;
+    transition-delay: ease 0.5ms;
+}
+
+.app__login-btns .btn-login:hover {
+    opacity: 0.9;
+}
+
+.text-center {
+    text-align: center;
+    margin-left: 30px;
+}
+
+.text-center .d-flex {
+    display: flex;
+}
+
+.d-flex p {
+    font-size: 14px;
+}
+
+@media screen  and (max-width: 1600px) {
+    .app__login-form_body {
+        position: absolute;
+        margin: 2% 2% 0 60%;
+    }
+}
+
+@media screen  and (max-width: 1200px) {
+    .app__login-form_body {
+        position: absolute;
+        margin: 2% 2% 0 60%;
+    }
+
+}
+
+@media screen  and (max-width: 1000px) {
+    .app__login-form_body {
+        position: absolute;
+        margin: 10% 10% 0 30%;
+    }
+}
+
+@media screen  and (max-width: 800px) {
+    .app__login-form_body {
+        position: absolute;
+        margin: 10% 10% 0 20%;
+    }
+
+    .app__login-title {
+    background: white;
+    width: 337px;
+    height: 278px;
+    border-radius: 10px;
+    padding: 30px;
+    }
+
+    .app__login-img img {
+        height: 60vh;
+        position: absolute;
+    }
+    
+}
+
+@media screen  and (max-width: 650px) {
+    .app__login-form_body {
+        position: absolute;
+        margin: 10% 40% 0 15%;
+    }
+
+    .app__login-img img {
+        height: 50vh;
+        position: absolute;
+    }
+}
+

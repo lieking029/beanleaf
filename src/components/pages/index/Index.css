@@ -1,0 +1,77 @@
+.app_index {
+    position: relative;
+    height: 70vh;
+    /* width: max-content; */
+}
+
+.coffee-img {
+    position: absolute;  
+    inset: 0;
+}
+
+.coffee-img img {
+    z-index: 0;
+}
+
+img {
+    width: 100%;
+    height: 70vh;
+}
+
+.app__index-content {
+    margin: 5rem 0 0 5rem;
+    position: absolute;
+    /* width: 100%; */
+    z-index: 2;
+}
+
+.app__index-content p span {
+    font-size: 50px;
+    color: white;
+}
+
+.app__index-content p {
+    font-size: 30px;
+    color: white;
+}
+
+.app__index-content_btn button{
+    background: #B46100;
+    border: none;
+    font-size: 27px;
+    color: white;
+    font-weight: 100;
+    border-radius: 3rem;
+    padding: 20px 4rem 20px 4rem;
+    cursor: pointer;
+}
+
+.app__index-content_btn button:hover {
+    color: rgb(224, 208, 208);
+    background: #B46100;
+    opacity: 0.9;
+}
+
+@media screen  and (max-width: 650px) {
+    .app_index {
+        position: relative;
+        height: 50vh;
+        /* width: max-content; */
+    }
+
+    .app__index-content p span {
+        font-size: 40px;
+        color: white;
+    }
+
+    .app__index-content p {
+        font-size: 20px;
+        color: white;
+    }
+
+    img {
+        width: 100%;
+        height: 50vh;
+    }
+
+}

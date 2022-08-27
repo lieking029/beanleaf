@@ -1,0 +1,46 @@
+.nav-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background: #4E2B0B;
+}
+
+.nav-container .title {
+    font-family: 'Dancing Script', cursive;
+    font-size: 50px;
+    color: white;
+    margin-left: 20px;
+}
+
+.d-flex {
+    display: flex;
+    color: white;
+}
+
+.d-flex p{
+    padding-top: 5px;
+    font-size: 20px;
+}
+
+.d-flex li {
+    list-style: none;
+    padding: 20px;
+}
+
+.justify-between {
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen  and (max-width: 650px) {
+    .nav-container .title {
+        font-family: 'Dancing Script', cursive;
+        font-size: 50px;
+    }
+    .d-flex {
+        color: white;
+    }
+    .justify-between p{
+        display: none;
+    }
+}

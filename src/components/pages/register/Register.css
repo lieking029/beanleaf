@@ -1,0 +1,197 @@
+.app__register-container {
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    height: 87vh;
+}
+
+.app__register-img img {
+    height: 70vh;
+    position: absolute;
+}
+
+.app__register-form_body {
+    position: absolute;
+    margin: 2% 2% 0 50%; 
+}
+
+.app__register-title {
+    background: white;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.app__register-title .register {
+    padding-bottom: 10px;
+    font-size: 19px;
+    border-bottom: 1px solid gray;
+}
+
+.app__register-info p {
+    margin-left: 15px;
+    font-size: 15px;
+}
+
+.personal-info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.personal-info input {
+    border: 0.4px solid #7B7070;
+    border-radius: 5px;
+    outline: none;
+    padding: 15px 10px 15px 20px;
+}
+
+.personal-info p {
+    color: red;
+    margin-top: 10px;
+    font-size: 10px;
+}
+
+.personal-info .input-lg {
+    padding-left: 10px;
+    width: 350px;
+}
+
+.app__info {
+    border-top: 1px solid gray;
+    margin-top: 10px;
+}
+
+.app__info p{
+    margin-left: 15px;
+    font-size: 15px;
+}
+
+.personal-info {
+    margin-bottom: 20px;
+}
+
+.account-info input{
+    padding-left: 10px;
+    border: 0.4px solid #7B7070;
+    border-radius: 5px;
+    width: 370px;
+    outline: none;
+    height: 34px;
+}
+
+.account-info .input-large {
+    margin: 15px 20px 15px 20px;
+}
+
+.account-info p {
+    color: red;
+    font-size: 10px;
+}
+
+.app__register-btns {
+    display: flex;
+    justify-content: space-between;
+}
+
+.app__register-btns .btn-register {
+    font-size: 12x;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    background: #B46100;
+    color: white;
+    width: 75px;
+    height: 35px;
+    cursor: pointer;
+}
+
+.btn-register:hover {
+    opacity: 0.9;
+}
+
+.app__register-btns p{
+    font-size: 14px;
+}
+
+.upper {
+    display: flex;
+}
+
+.upper .phone {
+    margin-top: 10px;
+}
+
+.lower {
+    display: flex;
+}
+
+.lower .cpassword {
+    margin-top: 10px;
+}
+@media screen  and (max-width: 1500px) {
+    .app__register-form_body {
+        margin: 2% 2% 0 40%;
+    }
+}
+
+@media screen  and (max-width: 1250px) {
+    .app__register-form_body {
+        margin: 2% 2% 0 25%;
+    }
+}
+
+@media screen  and (max-width: 1000px) {
+    .app__register-form_body {
+        position: absolute;
+        margin: 2% 2% 0 10%;
+    }
+    .account-info input{
+        padding-left: 10px;
+        border: 0.4px solid #7B7070;
+        border-radius: 5px;
+        width: 300px;
+        outline: none;
+        height: 34px;
+    }
+    .personal-info input {
+        border: 0.4px solid #7B7070;
+        border-radius: 5px;
+        outline: none;
+        padding-left: 10px 10px 10px 10px;
+    }
+    .personal-info .input-lg {
+        padding-left: 10px 20px 10px 20px;
+    }
+}
+
+@media screen and (max-width: 850px ) {
+    .app__register-form_body {
+        margin: 2% 2% 0 2%;
+    }
+    
+    .app__register-title {
+        background: white;
+        border-radius: 10px;
+        padding: 30px;
+    }
+    .personal-info {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .personal-info .input-lg {
+        padding-left: 10px 10px 10px 10px;
+        /* width: 240px;
+        height: 34px; */
+    }
+    .app__register-img img {
+        height: 60vh;
+        position: absolute;
+    }
+    .account-info input{
+        padding-left: 10px 20px 10px 50px;
+        border: 0.4px solid #7B7070;
+        border-radius: 5px;
+        /* width: 220px; */
+        outline: none;
+        /* height: 34px; */
+    }
+}

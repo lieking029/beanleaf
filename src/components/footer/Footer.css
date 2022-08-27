@@ -1,0 +1,15 @@
+.footer-container {
+    padding: 10px;
+    /* width: 100%; */
+    background: #4E2B0B;
+}
+
+.flex-reverse {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.flex-reverse p {
+    font-size: 12px;
+    color: white;
+}
