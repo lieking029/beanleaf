@@ -11,7 +11,7 @@ const useForm = validate => {
         cpassword: '',
     })
     const [errors, setErrors] = useState({})
-    const [isSubmitting, setIsSubmitting] = useState(false)
+    // const [isSubmitting, setIsSubmitting] = useState(false)
 
 
     const handleChange = e => {
@@ -26,8 +26,10 @@ const useForm = validate => {
         e.preventDefault();
 
         setErrors(validate(values))
-        setIsSubmitting(true)
+        // setIsSubmitting(true)
       };
+
+      console.log(values)
 
     return {handleChange, values, handleSubmit, errors}
 }

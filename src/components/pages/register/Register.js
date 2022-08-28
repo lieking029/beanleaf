@@ -10,6 +10,7 @@ const Register = () => {
 
   const {handleChange, values, handleSubmit, errors} = useForm(validate)
 
+  // const onSubmit = (data) => console.log(data)
 
   return (
     <div>
@@ -40,7 +41,7 @@ const Register = () => {
                        /> 
                 </div>
                 <div>
-                 {errors.firstName && <p>{errors.firstName}</p>}
+                 {errors.firstName && <p>{errors.firstName}</p>} 
                 <input 
                        className='input-lg' 
                        id='firstName'

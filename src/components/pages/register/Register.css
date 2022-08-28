@@ -11,7 +11,8 @@
 
 .app__register-form_body {
     position: absolute;
-    margin: 2% 2% 0 50%; 
+    box-shadow: 1px 1px 2px gray;
+    margin: 2% 2% 0 40%; 
 }
 
 .app__register-title {
@@ -116,7 +117,7 @@
 }
 
 .upper .phone {
-    margin-top: 10px;
+    margin-top: 15px;
 }
 
 .lower {
@@ -124,11 +125,11 @@
 }
 
 .lower .cpassword {
-    margin-top: 10px;
+    margin-top: 15px;
 }
 @media screen  and (max-width: 1500px) {
     .app__register-form_body {
-        margin: 2% 2% 0 40%;
+        margin: 2% 2% 0 30%;
     }
 }
 
